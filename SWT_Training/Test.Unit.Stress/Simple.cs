@@ -8,7 +8,7 @@ using Assert = NUnit.Framework.Assert;
 namespace Test.Unit.Stress
 {
     [TestFixture]
-    public class UnitTest1
+    public class Simple
     {
         [SetUp]
 
