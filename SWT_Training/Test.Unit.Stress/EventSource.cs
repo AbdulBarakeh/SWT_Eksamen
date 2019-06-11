@@ -7,7 +7,7 @@ using Assert = NUnit.Framework.Assert;
 namespace Test.Unit.Stress
 {
     [TestClass]
-    public class Event
+    public class EventSource
     {
         private Caffeine _uutCaffeine;
         private CaffeineAmountChangedEventArgs _receivedEventArgs;
@@ -26,9 +26,9 @@ namespace Test.Unit.Stress
 
 
             _uutCaffeine.CaffeineAmountChangedEvent +=
-                (o, args) =>
+                (sender, args) =>
                 {
-                    //Hvad skal der ske når evented bliver triggered
+                    //Hvad der skal ske når evented bliver triggered
                     _receivedEventArgs = args;
                 };
 

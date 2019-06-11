@@ -32,9 +32,6 @@ namespace Test.Unit.Stress
           Assert.That(Result_Expected_True, Is.True);
 
 
-
-
-
         }
 
         [Test]
