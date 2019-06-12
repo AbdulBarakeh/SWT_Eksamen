@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECSWithEvents", "ECSWithEvents\ECSWithEvents.csproj", "{3634A4B3-0C0A-4B8B-A24D-DDF1F7BD3926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECSWithEvents.Test.Unit", "ECSWithEvents.Test.Unit\ECSWithEvents.Test.Unit.csproj", "{3CCCE409-F288-4825-A9FB-0FD3F04DFDB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3634A4B3-0C0A-4B8B-A24D-DDF1F7BD3926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3634A4B3-0C0A-4B8B-A24D-DDF1F7BD3926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3634A4B3-0C0A-4B8B-A24D-DDF1F7BD3926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3634A4B3-0C0A-4B8B-A24D-DDF1F7BD3926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CCCE409-F288-4825-A9FB-0FD3F04DFDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CCCE409-F288-4825-A9FB-0FD3F04DFDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CCCE409-F288-4825-A9FB-0FD3F04DFDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CCCE409-F288-4825-A9FB-0FD3F04DFDB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFA54CEE-E0A7-441B-9902-5B39F66DCC1F}
+	EndGlobalSection
+EndGlobal
