@@ -34,7 +34,7 @@ namespace Classes.Event_Testing
             _caffeineContentmg += caffeineContentmg;
             _numberOfEnergydrinks = _caffeineContentmg / 160;
 
-            Console.WriteLine($"You have drunk {caffeineContentmg} worth of caffeine, and {_caffeineContentmg} in total, which is {_numberOfEnergydrinks} cans worth of half-liter energydrinks" );
+            Console.WriteLine($"You have drunk {caffeineContentmg} mg worth of caffeine, and {_caffeineContentmg} in total, which is {_numberOfEnergydrinks} cans worth of half-liter energydrinks" );
 
         }
     }
