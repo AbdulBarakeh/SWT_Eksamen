@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{8CA287DE-76C3-482C-80EF-FE07035D3D24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Classes", "Classes\Classes.csproj", "{8CA287DE-76C3-482C-80EF-FE07035D3D24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner", "Runner\Runner.csproj", "{49F54217-8EED-4658-9369-3AF5B1ED50B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Runner", "Runner\Runner.csproj", "{49F54217-8EED-4658-9369-3AF5B1ED50B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Unit.Stress", "Test.Unit.Stress\Test.Unit.Stress.csproj", "{8CD9B722-0258-4988-85E6-81F6AB9F766A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Runner2", "Runner2\Runner2.csproj", "{9897D19C-902C-408E-9EC2-FE06D7D87F4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test.Integration.CashRegisterTest", "Test.Integration.CashRegister\Test.Integration.CashRegisterTest.csproj", "{2004A5C1-EFF6-49F4-8DC6-A14620210C00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{8CD9B722-0258-4988-85E6-81F6AB9F766A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8CD9B722-0258-4988-85E6-81F6AB9F766A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CD9B722-0258-4988-85E6-81F6AB9F766A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9897D19C-902C-408E-9EC2-FE06D7D87F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9897D19C-902C-408E-9EC2-FE06D7D87F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9897D19C-902C-408E-9EC2-FE06D7D87F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9897D19C-902C-408E-9EC2-FE06D7D87F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2004A5C1-EFF6-49F4-8DC6-A14620210C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2004A5C1-EFF6-49F4-8DC6-A14620210C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2004A5C1-EFF6-49F4-8DC6-A14620210C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2004A5C1-EFF6-49F4-8DC6-A14620210C00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
